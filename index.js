@@ -13,8 +13,8 @@ function nowServing(katzDeliLine) {
   } else {
     while (katzDeliLine.length > 0) {
      return `Currently serving ${katzDeliLine[0]}.`;
-     katzDeliLine = katzDeliLine.slice(1);
     }
+    katzDeliLine = katzDeliLine.slice(1);
   }
 }
 
