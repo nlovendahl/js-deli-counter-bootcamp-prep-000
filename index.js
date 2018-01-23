@@ -3,7 +3,7 @@ function takeANumber(katzDeliLine, name) {
     return `Welcome, ${name}! How can we help you?`;
   } else {
   katzDeliLine.push(name);
-  return (`Welcome, ${name}. You are number ${katzDeliLine.length} in line`);
+  return (`Welcome, ${name}. You are number ${katzDeliLine.length} in line.`);
   }
 }
 
