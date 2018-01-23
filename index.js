@@ -14,5 +14,5 @@ function nowServing(katzDeliLine, name) {
 }
 
 function currentLine(line) {
-  var line = []''
+  var line = [];
 }
