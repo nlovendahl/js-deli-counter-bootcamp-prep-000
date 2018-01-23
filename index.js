@@ -1,5 +1,5 @@
 function takeANumber(katzDeliLine, name) {
-  if (katzDeliLine.length <= 0) {
+  if (katzDeliLine.length < 0) {
     return `Welcome, ${name}! How can we help you?`;
   } else {
   katzDeliLine.push(name);
