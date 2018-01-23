@@ -14,6 +14,7 @@ function nowServing(katzDeliLine, name) {
       return `Currently serving ${katzDeliLine[0]}.`;
     }
     katzDeliLine.slice(1);
+    return katzDeliLine;
 }
 
 function currentLine(katzDeliLine) {
