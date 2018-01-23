@@ -12,8 +12,8 @@ function nowServing(katzDeliLine) {
     return `There is nobody waiting to be served!`;
   } else {
      katzDeliLine = katzDeliLine.slice(1);
-     return `Currently serving ${katzDeliLine[0]}.`;
   }
+  return `Currently serving ${katzDeliLine[0]}.`;
 }
 
 
